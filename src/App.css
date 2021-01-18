@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  /* display: flex; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.form-class{
+display: flex;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-data-part{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  width: 100%;
+
+}
+.name{
+  margin-bottom: 20px !important;
+  width: 40% !important;
+  /* display: flex; 
+  align-items: center;  */
+}
+.description{
+  margin-bottom: 20px !important;
+  width: 40% !important;
 }
 
-.App-link {
-  color: #61dafb;
+.upload-label{
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fileUpload{
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+/* background-color: darkgrey;
+color: #ffffff; */
+padding:15px 20px;
+width: 20%;
 }
+
+.submit-form{
+  background-color: rgb(6, 223, 150);
+  padding: 10px 20px;
+  border: 1px aquamarine;
+  border-radius: 2px;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* input[type="file"]
+{
+  display: none;
+}
+.fileUpload input.upload 
+{
+    display: inline-block;
+} */
+
+
+
